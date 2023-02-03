@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dreem"
+version = "0.0.1"
+authors = [
+  { name="Caden", email="34259593+cjgunnar@users.noreply.github.com" },
+]
+description = "A modified version of DREEM clustered MuPseq"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/cjgunnar/dreem"
+"Bug Tracker" = "https://github.com/cjgunnar/dreem/issues"
+
+[project.scripts]
+dreem-bitvector = "BitVector:main"
